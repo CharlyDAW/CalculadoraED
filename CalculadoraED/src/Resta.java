@@ -1,28 +1,32 @@
 
 	/**
-	 * Representa la operación de resta, recibe los parámetros que introduce el usuario, y procede a realizar la operación aritmética, 
-	 * siempre que los parámetros se encuentren dentro del dominio matemático designado a cada tipo de resta. 
+	 * Representa la operaciÃ³n de resta, recibe los parÃ¡metros que introduce el usuario, y procede a realizar la operaciÃ³n aritmÃ©tica, 
+	 * siempre que los parÃ¡metros se encuentren dentro del dominio matemÃ¡tico designado a cada tipo de resta. 
 	 * 
 	 * Por ejemplo: Si en resta2, el usuario introduce operandos que no son de tipo entero, 
-	 * pedirá introducir ese tipo de números para poder realizar continuar con la operación.
+	 * pedirÃ¡ introducir ese tipo de nÃºmeros para poder realizar continuar con la operaciÃ³n.
 	 * 
-	 * @author <b>Carlos Fuentes Vázquez</b>
+	 * @author <b>Carlos Fuentes VÃ¡zquez</b>
 	 * @version 2.0
 	 * 
 	 */
 public class Resta {
 
 	public static void main (String [] args) {
+
+		System.out.println("hola que tal, a ver si esta vez funciona");
+
 		System.out.println("hola que tal, todo bien por aqui");
 		System.out.println("A ver si esta vez si");
+
 	}
 	/** 
-	 * <b>Método 1:</b>  Resta de dos números reales, tendrá 2 parámetros de entrada y uno de salida, que será la solución.
+	 * <b>MÃ©todo 1:</b>  Resta de dos nÃºmeros reales, tendrÃ¡ 2 parÃ¡metros de entrada y uno de salida, que serÃ¡ la soluciÃ³n.
 	 *  
 	 * @param num1 
-	 * 			Primer número a restar que introduce el usuario (double)
+	 * 			Primer nÃºmero a restar que introduce el usuario (double)
 	 * @param num2 
-	 * 			Segundo número a restar que introduce el usuario (double)
+	 * 			Segundo nÃºmero a restar que introduce el usuario (double)
 	 *
 	 * @return <b>rest1</b> Devuelve la resta de num1 y num2
 	 * 		
@@ -33,12 +37,12 @@ public class Resta {
 	}
 
 	/** 
-	 * <b>Método 2:</b>  Resta de dos números enteros, tendrá 2 parámetros de entrada y uno de salida que será la solución.
+	 * <b>MÃ©todo 2:</b>  Resta de dos nÃºmeros enteros, tendrÃ¡ 2 parÃ¡metros de entrada y uno de salida que serÃ¡ la soluciÃ³n.
 	 *  
 	 * @param num1 
-	 * 			Primer número a restar que introduce el usuario (int)
+	 * 			Primer nÃºmero a restar que introduce el usuario (int)
 	 * @param num2 
-	 * 			Segundo número a restar que introduce el usuario (int)
+	 * 			Segundo nÃºmero a restar que introduce el usuario (int)
 	 *
 	 * @return res2 
 	 * 			Devuelve la resta de num1 y num2 (int)
@@ -50,17 +54,17 @@ public class Resta {
 	}
 
 	/** 
-	 * <b>Método 3:</b>  Resta de tres números reales, tendrá 3 parámetros de entrada y uno de salida que será la solución.
+	 * <b>MÃ©todo 3:</b>  Resta de tres nÃºmeros reales, tendrÃ¡ 3 parÃ¡metros de entrada y uno de salida que serÃ¡ la soluciÃ³n.
 	 * 
 	 * @param num1 
-	 * 			Primer número a restar que introduce el usuario (double)
+	 * 			Primer nÃºmero a restar que introduce el usuario (double)
 	 * @param num2 
-	 * 			Segundo número que a estar introduce el usuario (double)
+	 * 			Segundo nÃºmero que a estar introduce el usuario (double)
 	 * @param num3 
-	 * 			Tercer número que a restar introduce el usuario (double)
+	 * 			Tercer nÃºmero que a restar introduce el usuario (double)
 	 *
 	 * @return <b>rest3</b> 
-	 * 			Devuelve la resta de los parámetros num1, num2 y num3 (double)
+	 * 			Devuelve la resta de los parÃ¡metros num1, num2 y num3 (double)
 	 */
 	
 	public double restar3 (double num1, double num2, double num3) {
@@ -68,12 +72,12 @@ public class Resta {
 	}
 
 	/** 
-	 *<b>Método 4:</b>  Resta con valor acumulado, tendrá un parámetro de entrada y la clase deberá de guardar el valor acumulado.
+	 *<b>MÃ©todo 4:</b>  Resta con valor acumulado, tendrÃ¡ un parÃ¡metro de entrada y la clase deberÃ¡ de guardar el valor acumulado.
 	 *  
 	 * @param acum 
 	 * 			Representa el valor resultante de una resta anterior (double)
 	 * @param num1 
-	 * 			Representa el número a restar que introduce el usuario para que se reste al acumulado en memoria (double)
+	 * 			Representa el nÃºmero a restar que introduce el usuario para que se reste al acumulado en memoria (double)
 	 *
 	 * @return <b>rest4</b> 
 	 * 			Devuelve la resta de acum y num1 (double)
@@ -87,9 +91,9 @@ public class Resta {
      * <b>Casos Especiales</b>:
      * 
      * Es posible que num1, num2 o num3 tengan el valor 0
-     * Los resultados de los métodos pueden devolver un número negativo si se introducen  números negativos
-     * En el método 1, los parámetros num1 y num2 pueden ser constantes, por ejemplo, el número PI
-     * Si en el método 2 y/o en el método 4, el usuario introduce un número no real, el programa ejecutará un mensaje de error por un desbordamiento de variable
+     * Los resultados de los mÃ©todos pueden devolver un nÃºmero negativo si se introducen  nÃºmeros negativos
+     * En el mÃ©todo 1, los parÃ¡metros num1 y num2 pueden ser constantes, por ejemplo, el nÃºmero PI
+     * Si en el mÃ©todo 2 y/o en el mÃ©todo 4, el usuario introduce un nÃºmero no real, el programa ejecutarÃ¡ un mensaje de error por un desbordamiento de variable
      * 
      */
 	
