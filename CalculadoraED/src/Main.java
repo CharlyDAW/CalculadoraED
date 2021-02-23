@@ -4,6 +4,7 @@ public class Main {
 		Resta r = new Resta ();
 		
 		System.out.println(r.restar1(2, 1));
+		System.out.println(r.restar1(2, 1));
 	}
 
 }
